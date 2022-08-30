@@ -12,7 +12,7 @@
 
     <main class="survey-body">
         <form class="survey-form" action="#" method="post">
-            <section class="product-service-date">
+            <section class="product-service-date option-body">
                 <div>
                     <p class="questions">When did you use our service?</p>
                     <input type="date" name="calendar">
@@ -25,8 +25,12 @@
                 </div>
             </section>
 
+            <!-- The first class in each section below defines the purpose of the section. -->
+            <!-- Also, in case we want to change the css in each section, It will be more easier than before.  -->
+            <!-- For now, we did not use them in css. -->
             <section class="satisfiction radio-section">
                 <p class="questions">Overall, how satisfied are you with the product or service?</p>
+
                 <div class="option-body">
                     <div>
                         <input type="radio" name="satisfied" value="A">
@@ -34,41 +38,48 @@
                             Very satisfied
                         </label>
                     </div>
+
                     <div>
                         <input type="radio" name="satisfied" value="B">
                         <label for="satisfied">
                             Satisfied
                         </label>
                     </div>
+
                     <div>
                         <input type="radio" name="satisfied" value="C">
                         <label for="satisfied">
                             Neutral
                         </label>
                     </div>
+
                     <div>
                         <input type="radio" name="satisfied" value="D">
                         <label for="satisfied">
                             Unsatisfied
                         </label>
                     </div>
+
                     <div>
                         <input type="radio" name="satisfied" value="F">
                         <label for="satisfied">
                             Very unsatisfied
                         </label>
                     </div>
+
                     <div>
                         <input type="radio" name="satisfied" value="NA">
                         <label for="satisfied">
                             N/A
                         </label>
                     </div>
+
                 </div>
             </section>
 
             <section class="expectation radio-section">
                 <p class="questions">Did our product or service meet your expectation?</p>
+
                 <div class="option-body">
                     <div>
                         <input type="radio" name="expectation" value="yes">
@@ -79,69 +90,84 @@
                         <input type="radio" name="expectation" value="no">
                         <label for="expectation">No</label>
                     </div>
+
                 </div>
             </section>
 
             <section class="recommendation radio-section">
                 <p class="questions">Would you recommend this product or service to a friend?</p>
+
                 <div class="option-body">
                     <div>
                         <input type="radio" name="recommend" value="yes">
                         <label for="recommend">Yes</label>
                     </div>
+
                     <div>
                         <input type="radio" name="recommend" value="no">
                         <label for="recommend">No</label>
                     </div>
+
                 </div>
             </section>
 
             <section class="postive-aspect radio-section">
                 <p class="questions">What aspect of the product or service were you most satisfied by?</p>
+
                 <div class="option-body">
                     <div>
                         <input type="radio" name="positiveAspect" value="quality">
                         <label for="positiveAspect">Quality</label>
                     </div>
+
                     <div>
                         <input type="radio" name="positiveAspect" value="price">
                         <label for="positiveAspect">Price</label>
                     </div>
+
                     <div>
                         <input type="radio" name="positiveAspect" value="customerService">
                         <label for="positiveAspect">Customer service</label>
                     </div>
+
                     <div>
                         <input type="radio" name="positiveAspect" value="installation">
                         <label for="positiveAspect">Installation or first use experience</label>
                     </div>
+
                 </div>
             </section>
 
             <section class="negative-aspect radio-section">
                 <p class="questions">What aspect of the product or service were you most satisfied by?</p>
+
                 <div class="option-body">
                     <div>
                         <input type="radio" name="negativeAspect" value="quality">
                         <label for="negativeAspect">Quality</label>
                     </div>
+
                     <div>
                         <input type="radio" name="negativeAspect" value="price">
                         <label for="negativeAspect">Price</label>
                     </div>
+
                     <div>
                         <input type="radio" name="negativeAspect" value="customerService">
                         <label for="negativeAspect">Customer service</label>
                     </div>
+
                     <div>
                         <input type="radio" name="negativeAspect" value="installation">
                         <label for="negativeAspect">Installation or first use experience</label>
                     </div>
+
                 </div>
             </section>
 
             <section class="more-info radio-section">
                 <p class="questions">Additional comments:</p>
+                
                 <textarea class="optional-txt-area" name="optionalComment" placeholder="Type here..."></textarea>
             </section>
 

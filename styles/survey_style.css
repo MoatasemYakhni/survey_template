@@ -35,10 +35,6 @@
     font-weight: 700;
 }
 
-.product-service-date {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 .product-service-date div {
     display: flex;
