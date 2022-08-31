@@ -14,12 +14,12 @@
     font-size: 1.75rem;
     font-weight: 900;
     text-align: center;
-    color:#721717;
+    color:#703b40;
 }
 
 .survey-body {
     width: 100%;
-    background-color: #e6e6e6;
+    background-color: #e4e5e4;
     padding: 1em 1.75em 1.5em 1.75em;
 }
 
@@ -31,7 +31,7 @@
 
 .questions {
     font-family: Arial, Helvetica, sans-serif;
-    color:#7c1c1c;
+    color:#703b40;
     font-weight: 700;
 }
 
@@ -54,7 +54,7 @@
 
 .product-service-date div .sm-txt {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(72, 72, 72);
+    color: #59647b;
     font-size: .75em;
     font-weight: 700;
     opacity: 0.8;
@@ -75,7 +75,7 @@
 
 .radio-section .option-body label {
     font-family: Arial, Helvetica, sans-serif;
-    color:#a00f0f;
+    color:#904d52;
 }
 
 .optional-txt-area {
@@ -89,7 +89,7 @@
     padding: .75em;
     width: 10em;
     border: none;
-    background-color: #6e6a6a;
+    background: linear-gradient(#59595a, #868686);
     cursor: pointer;
     color: #ffffff;
 }

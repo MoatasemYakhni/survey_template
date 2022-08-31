@@ -14,18 +14,18 @@
     font-size: 1.75rem;
     font-weight: 900;
     text-align: center;
-    color:#721717;
+    color:#713b40;
 }
 
 .questions {
     font-family: Arial, Helvetica, sans-serif;
-    color:#7c1c1c;
+    color:#703b40;
     font-weight: 700;
 }
 
 .survey-body {
     width: 100%;
-    background-color: #e6e6e6;
+    background-color: #e4e5e4;
     padding: 1em 1.75em 1.5em 1.75em;
 }
 
@@ -45,13 +45,18 @@
 
 .survey-table tr td label {
     font-family: Arial, Helvetica, sans-serif;
-    color:#a00f0f;
+    color:#904d52;
+}
+
+.survey-table tr td input {
+    margin: .5em 0;
 }
 
 .product-service-date td input {
     width: 80%;
     height: 2em;
     padding: .25em;
+    margin: .5em 0;
 }
 
 .product-service-date td input[type=date], input[type=radio] {
@@ -60,7 +65,7 @@
 
 .product-service-date td .sm-txt {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(72, 72, 72);
+    color: #59647b;
     font-size: .75em;
     font-weight: 700;
     opacity: 0.8;
@@ -77,7 +82,7 @@
     padding: .75em;
     width: 10em;
     border: none;
-    background-color: #6e6a6a;
+    background: linear-gradient(#59595a, #868686);
     cursor: pointer;
     color: #ffffff;
 }
